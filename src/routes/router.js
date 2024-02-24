@@ -28,12 +28,10 @@ import ProfileSupport from '@pages/Profile/Support'
 import ProfileFAQ from '@pages/FAQ'
 
 const router = createBrowserRouter([
-
     {
         path : '/',
         element : <Welcome/>
     },
-
     {
         path : '/register',
         element : <Root/>,
@@ -42,20 +40,16 @@ const router = createBrowserRouter([
                 path : '/register',
                 element : <RegisterAccessData/>
             },
-
             {
                 path : '/register/user-data',
                 element : <RegisterUserData/>
             },
-
             {
                 path : '/register/upload-documents',
                 element : <RegisterUploadDocuments/>
             }
         ]
-
     },
-
     {
         path : '/login',
         element : <Root/>,
@@ -71,56 +65,41 @@ const router = createBrowserRouter([
                 element : <OTP/>
             }
         ]
-    
-
     },
-
     {
         path : '/wallet',
         element : <Root/>,
         children : [
-
             {
                 path :'/wallet',
                 element : <WalletHome/>
-            },
-           
+            },        
             {
                 path :'/wallet/send',
                 element : <WalletSend/>
             },
-
             {
                 path :'/wallet/receive',
                 element : <WalletReceive/>
             },
-
-            {
+                {
                 path :'/wallet/movements',
                 element : <WalletMovements/>
             },
-
             {
                 path :'/wallet/linkcopied',
                 element : <WalletLinkCopied/>
             }
         ]
-        
-    
-
     },
-
     {
         path : '/market',
         element : <Root/>,
-        children : [
-
-           
+        children : [           
             {
                 path :'/market',
                 element : <MarketHome/>
             },
-
             {
                 path :'/market/buy',
                 element : <MarketBuy/>
@@ -130,14 +109,11 @@ const router = createBrowserRouter([
                 element : <MarketSell/>
             },
         ],
-    
     },   
-
     {
         path : '/profile',
         element : <Root/>,
-        children : [
-          
+        children : [ 
             {
                 path :'/profile',
                 element : <ProfileHome/>
@@ -159,7 +135,6 @@ const router = createBrowserRouter([
                 element : <ProfileFAQ/>
             },
         ]
-
     }
 ])
 export default router

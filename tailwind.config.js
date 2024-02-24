@@ -7,14 +7,8 @@ module.exports = {
             primary: "#f8b127",
             secondary: "#fffdfa",
             accent: "#0D4937",
-            tertiary: "#198766"
-
-
-            
-            
-          },
-
-          
+            tertiary: "#198766"          
+          },    
         },
   },
   plugins: [],

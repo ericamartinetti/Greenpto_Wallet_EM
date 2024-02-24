@@ -8,7 +8,7 @@ export default function FormOTP(){
                 <p className='text-stone-500 font-semibold text-lg'>
                     We have sent you an OTP to your email address. Please enter the OTP below to verify your email address.
                 </p>              
-                <div className='flex justify-between mt-10 gap-4'>
+                <div className='flex justify-evenly mt-10 gap-4'>
                    <InputOTP/>
                    <InputOTP/>
                    <InputOTP/>
