@@ -10,9 +10,9 @@ function Welcome() {
        </div>
       </header>    
         <div className="flex justify-center  flex-col items-center py-20">
-          <Button to="/login" type="accent"> Log in</Button>    
-            <Link to="/register" className="text-xl uppercase underline py-7 text-black">
-              sign up
+          <Button to="/login" type="accent"> Login</Button>    
+            <Link to="/register" className="text-2xl underline uppercase py-7 text-black">
+               sign up
             </Link>
         </div>   
     </div>

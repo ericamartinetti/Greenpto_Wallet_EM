@@ -1,16 +1,14 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{html,js}"],  
-  theme: {
-        extend: {
-          colors:{
-            primary: "#f8b127",
-            secondary: "#fffdfa",
-            accent: "#0D4937",
-            tertiary: "#198766"          
-          },    
-        },
+/** @type {import('tailwindcss').Config} **/
+export const content = ["./src/**/*.{html,js}"];
+export const theme = {
+  extend: {
+    colors: {
+      primary: "#f8b127",
+      secondary: "#fffdfa",
+      accent: "#0D4937",
+      tertiary: "#198766"
+    },
   },
-  plugins: [],
-}
+};
+export const plugins = [];
 

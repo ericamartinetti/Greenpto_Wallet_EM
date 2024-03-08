@@ -9,7 +9,7 @@ export default function Buttonblock({ children, type = 'accent', to = '#' }) {
     accent: 'bg-accent'
   }
   return (
-    <Link to={to} className={"h-16 flex justify-between text-white bg-accent items-center px-4  border-secondary rounded-3xl border-[3px] font-bold " + styles[type]}>
+    <Link to={to} className={"h-16 flex justify-between text-white bg-accent items-center px-4 rounded-2xl font-bold " + styles[type]}>
       <Textlg>
         {children}
       </Textlg>

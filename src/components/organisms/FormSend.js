@@ -4,16 +4,16 @@ export default function FormSend() {
     return (
         <form className="flex  flex-col gap-6 items-center">
                 <Forminput
-                    id="whithdrawalAddres"
-                    text="WhithdrawalAddres"
-                    placeholder="whithdrawalAddres"
+                    id="Whithdrawal Address"
+                    text="Whithdrawal Address"
+                    placeholder="Whithdrawal Address"
                     type="email"
                     required={true}
                 />
                   <Forminput
-                    id="whithdrawalAmount"
-                    text="WhithdrawalAmount"
-                    placeholder="whithdrawalAmount"
+                    id="Whithdrawal Amount"
+                    text="Whithdrawal Amount"
+                    placeholder="Whithdrawal Amount"
                     type="email"
                     required={true}
                 />

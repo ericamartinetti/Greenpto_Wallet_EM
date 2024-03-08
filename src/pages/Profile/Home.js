@@ -9,7 +9,7 @@ export default function Home(){
         <Buttonblock to="/profile/edit-password">Edit Password</Buttonblock>
         <Buttonblock to="/profile/support">Support</Buttonblock>
         <Buttonblock to="/profile/faq">F.A.Q</Buttonblock>      
-        <Buttonblock to="/" type='secondary'>Logout</Buttonblock>
+        <Buttonblock to="/" type='primary'>LOGOUT</Buttonblock>
       </div>
     </MainLayout>
   )
